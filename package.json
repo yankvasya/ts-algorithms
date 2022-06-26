@@ -4,7 +4,7 @@
   "description": "## Completing tasks with Typescript from a book \"Grokking algorithms\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node main"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,9 @@
   "homepage": "https://github.com/yankvasya/ts-algorithms#readme",
   "devDependencies": {
     "@types/node": "^18.0.0"
+  },
+  "dependencies": {
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
   }
 }
